@@ -11,6 +11,10 @@ import java.util.List;
 
 @Controller
 public class ThymeleafTest {
+    //测试分支
+    public void t2(){
+
+    }
     @RequestMapping("/t1")
     public String t1(Model model) {
         model.addAttribute("a", "aa");
